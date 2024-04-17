@@ -1,0 +1,48 @@
+# 기본적인 Node.js 모듈 디렉토리
+node_modules/
+
+# 빌드 아티팩트
+build/
+dist/
+
+# 환경 설정 파일 (예: dotenv 파일)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# 로그 파일
+*.log
+
+# 에디터나 IDE의 임시 파일 및 설정 파일
+*.swp
+*.swo
+.vscode/
+
+# npm/yarn 캐시 파일
+.npm
+.yarn
+
+# 바벨의 트랜스파일링 아티팩트
+.babel_cache/
+
+# 임시 디렉토리
+.tmp/
+
+# 서드파티 패키지 관리 도구에 의해 생성된 디렉토리
+.yarn/
+.pnp.*
+
+# 라이브러리 및 소스 맵 파일
+*.map
+
+# 테스트 관련 파일 및 폴더
+coverage/
+
+# 작업 상태 파일
+.idea/
+.DS_Store
+
+# 빌드 도구 설정 파일
+.webpack/
